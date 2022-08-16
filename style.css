@@ -391,11 +391,14 @@ h3{
 .sub-header{
     height: 70vh;
     width: 100%;
-    background-image: linear-gradient(rgba(237, 238, 241, 0.2),rgba(19, 23, 247, 0.2)),url(images/background.jpg);
-    background-position: center;
+/*    
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7),rgba(235, 229, 247, 0.7)),url(images/background.jpg);
+ */
+ background-image: linear-gradient(to left top, #fe3247, #db1f69, #aa2b7b, #73357c, #3f356b, #2e4274, #1d4c78, #135678, #0a7d9e, #0ea6bf, #31d0db, #5ffbf1);
+ background-position: center;
     background-size: cover;
     text-align: center;
-    color: rgb(22, 33, 62);
+    color: rgb(253, 253, 253);
 
 }
 
