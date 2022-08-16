@@ -545,6 +545,8 @@ h3{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
+
+  
 }
 .contact-col div .fa{
     font-size: 28px;
@@ -563,6 +565,18 @@ h3{
     font-weight: 400;
     
 }
+
+/* This will style any <img> element in .contact-col div */
+.contact-us img{
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    
+
+
+}
+
 .contact-col input, .contact-col textarea{
     width: 100%;
     padding: 15px;
